@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+}
+.hero-section{
+    background-image:url('hero-section.png') ;
+    background-repeat: no-repeat;
+    
+}
+.half-width{
+    width:40%;
+    float:left ;
+    margin-left:5% ;
+    padding-left:2% ;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.peter{
+    color:#ffa500;
+}
+h3{
+    font-size:19px ;
+    color:#000;
+}
+p{
+    font-size:16px ;
+    color:#696969;
+    font-weight:400;
+    margin-bottom: 30px;
+}
+.anchor-button{
+    text-decoration: none;
+    background:linear-gradient(45deg,lightsalmon, tomato);
+    color:#fff;
+    padding: 10px 36px;
+    text-transform:uppercase ;
+    border-radius: 5px;
+}
+.half-width img{
+    width:100%;
+    margin-top: 40px;
+}
+.about-section{
+    background-image: url('secend.png');
+    background-repeat: no-repeat;
+    background-position:right ;
+    
+}
+.experience-section{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp{
+    text-align:center;
+}
+.experience-section div{
+    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.69);
+    height: 80%;
+    background-color: #fff;
+    padding: 0 20px;
+
+}
+.experience-section div:hover{
+    box-shadow: 5px 5px 40px gray;
+}
+
+.experience-section h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.experience-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color:#ffa500;
+
+}
+.experience-section p{
+    color:#696969;
+    font-size: 16px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+} 
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+.all{
+    text-align: center; 
+    padding-top: 2px;
+    margin-top: 44px;
+}
+footer a{
+    text-decoration: none;
+    color:#696969;
+    font-weight: 600;
+}
